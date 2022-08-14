@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md All Amin Hossain</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/D1.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#services">Services</a> </li>
+                    <li> <a href="#porfolio">Portfolio</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fotend/Backend Developer</p>
+                <h1>Hi, I'm <span> Md All-Amin </span><br> form Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about section   -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-coll-1">
+                    <img src="images/a2.png" alt="">
+                </div>
+                <div class="about-coll-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, maxime. Esse debitis aperiam quia amet qui minima dolor consectetur nobis asperiores! Ullam dolor magnam beatae possimus itaque tempora, harum, expedita exercitationem
+                        eaque corporis quasi labore consectetur. Tenetur repudiandae qui nisi, eveniet quibusdam eos veniam praesentium? Reprehenderit magni, fugiat ratione eum quasi esse id optio qui saepe? Odio neque hic qui commodi expedita excepturi.
+                        Vel dolorem quam quae impedit alias molestias eum ipsam nam. Voluptates totam aut quod mollitia facere recusandae placeat vel ipsam qui cumque odio, iste temporibus iusto quo vitae? Earum dolorum architecto iusto error enim alias
+                        blanditiis itaque.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Degining Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Python</li>
+                            <li><span>App Development</span><br>Degining Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI?UX</span><br>Degining Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Java</li>
+                            <li><span>App Development</span><br>Degining Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI?UX</span><br>Degining Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>C++</li>
+                            <li><span>App Development</span><br>Degining Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==============Services================ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat ipsa quia porro minus unde distinctio dignissimos non architecto,
+                     quam velit voluptatum nesciunt amet fugiat mollitia aperiam tempore. Blanditiis, unde dolores.
+                    </p>
+                    <a href="#">laren more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat ipsa quia porro minus unde distinctio dignissimos non architecto, 
+                    quam velit voluptatum nesciunt amet fugiat mollitia aperiam tempore. Blanditiis, unde dolores.
+                    </p>
+                    <a href="#">laren more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quaerat ipsa quia porro minus unde distinctio dignissimos non architecto, 
+                    quam velit voluptatum nesciunt amet fugiat mollitia aperiam tempore. Blanditiis, unde dolores.
+                    </p>
+                
+                    <a href="#">laren more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------portfolio---------------------- -->
+<div id="porfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>My App </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, error.</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>My App </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, error.</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>My App </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, error.</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- --------------------------contact---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download="" class="btn btn2">Downloade CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" id="" cols="" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &#169; Minhaz<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+<!-- '''''''''''''''''''''''js section;''''''''''''''''' -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyOKMdk9wg8fBANYJ05TMKeJEAvdCBNi8RkPEm9UpHZ4VSaeJ6ipjJEF4ifNmv1LSY/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            // .then(response => console.log('Success!', response))
+            .then(response => {
+                msg.innerHTML = "Message Submit Succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
